@@ -1,0 +1,40 @@
+{
+  "name": "node-js-jwt-refresh-token-mongodb",
+  "version": "1.0.0",
+  "description": "Node.js JWT Refresh Token with MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "build": "npm install"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "jwt",
+    "refresh token",
+    "authentication",
+    "authorization",
+    "mongodb"
+  ],
+  "author": "bezkoder",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.1",
+    "google-auth-library": "^9.9.0",
+    "google-spreadsheet": "^4.1.1",
+    "googleapis": "^134.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.10",
+    "nodemon": "^3.1.0",
+    "request": "^2.88.2",
+    "uuid": "^8.3.2"
+  }
+}
